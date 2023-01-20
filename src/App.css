@@ -76,6 +76,10 @@
   transform: none !important;
 }
 
+.card .body {
+  background-color: transparent !important;
+}
+
 
 .App-link {
   color: #61dafb;
