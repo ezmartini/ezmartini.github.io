@@ -1,9 +1,10 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+import { cardClasses } from "./util";
 
 export default function Contact() {
   return (
-    <Card className="col-lg-3 col-md-5 col-sm-7 p-2 ms-lg-auto mx-sm-auto mb-sm-3 mb-lg-0 mb-md-0 custom-card">
+    <Card className={cardClasses.small}>
       <Card.Body>
         <Card.Text>[image here]</Card.Text>
         <Card.Title> Eduarda Martini </Card.Title>

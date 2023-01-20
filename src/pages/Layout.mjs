@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 import Contact from "../components/Contact.js";
-import Projects from "../components/Projects.js";
 import Resume from "../components/Resume.js";
+import About from "../components/About.js";
+import Projects from "../components/Projects.js";
 import SiteNavbar from "../components/SiteNavbar.js";
 
 export default function Layout() {
@@ -11,14 +12,17 @@ export default function Layout() {
       <SiteNavbar />
 
       <Container className="mt-4">
-        <Row>
+        <Row className="mb-lg-3">
           <Contact />
-          <Resume />
+          <About />
         </Row>
 
-        <Row>
+        <Row className="mb-lg-3">
+          <Resume />
           <Projects />
         </Row>
+
+        <Row className="mb-lg-3"></Row>
       </Container>
     </>
   );
