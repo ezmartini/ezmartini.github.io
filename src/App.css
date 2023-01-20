@@ -60,6 +60,11 @@
   
 }
 
+.contactCard {
+  background-color: rgba(255, 255, 255, 0.64) !important;
+  backdrop-filter: blur(5px);
+}
+
 .connectCard {
   background-color: rgba(255, 255, 255, 0.229) !important;
   border: none !important;

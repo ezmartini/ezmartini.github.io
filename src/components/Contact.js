@@ -4,7 +4,7 @@ import { cardClasses } from "./util";
 
 export default function Contact() {
   return (
-    <Card className={cardClasses.small}>
+    <Card className={cardClasses.small + " contactCard"}>
       <Card.Body>
         <Card.Text>[image here]</Card.Text>
         <Card.Title> Eduarda Martini </Card.Title>
