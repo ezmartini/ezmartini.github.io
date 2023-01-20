@@ -13,7 +13,7 @@ export default function Layout() {
     <div className="background">
       <SiteNavbar />
 
-      <Container className="mt-4">
+      <Container className="mt-4 px-4">
         <Row className="mb-lg-3">
           <Contact />
           <About />
