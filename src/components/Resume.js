@@ -5,8 +5,8 @@ import { BsPaperclip } from "react-icons/bs";
 
 export default function Resume() {
   return (
-    <Card className={cardClasses.large + cardClasses.left}>
-      <Card.Header className="p-0 bg-white border-bottom-0 p-2 custom-header">
+    <Card className={cardClasses.large + cardClasses.left + " px-0 + py-0"}>
+      <Card.Header className="border-bottom-0 p-3 custom-header">
         {" "}
         <Card.Title>
           {" "}

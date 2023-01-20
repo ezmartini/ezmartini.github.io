@@ -1,16 +1,16 @@
 import React from "react";
 import { Card } from "react-bootstrap";
-import { BsFillChatLeftQuoteFill } from "react-icons/bs";
+import { BsChatQuote } from "react-icons/bs";
 import { cardClasses } from "./util";
 
 export default function About() {
   return (
-    <Card className={cardClasses.large + cardClasses.right}>
-      <Card.Header className="p-0 bg-white border-bottom-0 p-2 custom-header">
+    <Card className={cardClasses.large + cardClasses.right + " px-0 + py-0"}>
+      <Card.Header className="p-0  border-bottom-0 p-3 custom-header">
         {" "}
         <Card.Title>
           {" "}
-          <BsFillChatLeftQuoteFill className="me-1 mb-0" /> About{" "}
+          <BsChatQuote className="me-1 mb-0" /> About{" "}
         </Card.Title>
         <p className="small text-muted mb-0 mt-0">
           {" "}

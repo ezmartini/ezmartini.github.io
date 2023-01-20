@@ -7,7 +7,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />} />
+        <Route path="/" element={<Layout className="layout" />} />
       </Routes>
     </BrowserRouter>
   );

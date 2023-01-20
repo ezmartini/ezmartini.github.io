@@ -10,7 +10,7 @@ import Misc from "../components/Misc.js";
 
 export default function Layout() {
   return (
-    <>
+    <div className="background">
       <SiteNavbar />
 
       <Container className="mt-4">
@@ -29,6 +29,6 @@ export default function Layout() {
           <Misc />
         </Row>
       </Container>
-    </>
+    </div>
   );
 }

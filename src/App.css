@@ -13,6 +13,27 @@
   }
 }
 
+.custom-card {
+  transition: all 0.2s ease-in-out;
+  box-shadow: 6px 0px 8px 0px rgba(73, 73, 73, 0.252);
+}
+
+
+.custom-card:hover {
+  transform: scale(1.02); 
+  box-shadow: 6px 0px 8px 0px rgba(73, 73, 73, 0.355);
+}
+
+.glossy {
+  background-color: rgba(0, 0, 0, 0.09);
+  backdrop-filter: blur(5px);
+
+}
+
+.custom-header {
+  background-color: #f7fbff !important;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,6 +44,30 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.background {
+  background-image: url("../public/pawel-czerwinski-7FqOISWr5V0-unsplash.jpg");
+ 
+  height: 100vh;
+  width: 100%;
+
+  background-size: cover;
+  background-position: center;
+  overflow: auto
+
+  
+}
+
+.connectCard {
+  background-color: rgba(255, 255, 255, 0.229) !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.connectCard:hover {
+  transform: none !important;
+}
+
 
 .App-link {
   color: #61dafb;
@@ -36,3 +81,4 @@
     transform: rotate(360deg);
   }
 }
+
