@@ -22,6 +22,8 @@
 .custom-card:hover {
   transform: scale(1.02); 
   box-shadow: 6px 0px 8px 0px rgba(73, 73, 73, 0.355);
+  cursor: pointer;
+
 }
 
 .glossy {
@@ -62,6 +64,7 @@
   background-color: rgba(255, 255, 255, 0.229) !important;
   border: none !important;
   box-shadow: none !important;
+  cursor:  default !important;
 }
 
 .connectCard:hover {
