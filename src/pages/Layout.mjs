@@ -5,6 +5,8 @@ import Resume from "../components/Resume.js";
 import About from "../components/About.js";
 import Projects from "../components/Projects.js";
 import SiteNavbar from "../components/SiteNavbar.js";
+import Connect from "../components/Connect.js";
+import Misc from "../components/Misc.js";
 
 export default function Layout() {
   return (
@@ -22,7 +24,10 @@ export default function Layout() {
           <Projects />
         </Row>
 
-        <Row className="mb-lg-3"></Row>
+        <Row className="mb-lg-3">
+          <Connect />
+          <Misc />
+        </Row>
       </Container>
     </>
   );
