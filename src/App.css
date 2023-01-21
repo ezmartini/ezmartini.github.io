@@ -81,6 +81,24 @@
   transform: none !important;
 }
 
+.connectDiv {
+  transition: all 0.2s ease-in-out;
+}
+
+.connectDiv:hover {
+  transform: scale(1.02); 
+  cursor: pointer;
+}
+
+.iconLink {
+  text-decoration: none;
+  color: white;
+}
+.iconLink:hover{
+  text-decoration: none;
+  color: white;
+}
+
 
 .App-link {
   color: #61dafb;
