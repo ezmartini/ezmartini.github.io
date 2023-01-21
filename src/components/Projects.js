@@ -9,8 +9,10 @@ export default function Projects() {
       <Card.Header className="p-0 border-bottom-0 p-3 custom-header">
         {" "}
         <Card.Title>
-          {" "}
-          <BsCodeSlash /> Projects{" "}
+          <h4>
+            {" "}
+            <BsCodeSlash /> Projects{" "}
+          </h4>
         </Card.Title>
         <p className="small text-muted mb-0 mt-0">
           {" "}

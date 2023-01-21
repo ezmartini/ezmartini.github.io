@@ -3,6 +3,7 @@ import { Card } from "react-bootstrap";
 import { cardClasses } from "./util";
 import { BsBroadcast } from "react-icons/bs";
 
+// change this name
 export default function Connect() {
   return (
     <>

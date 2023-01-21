@@ -10,7 +10,10 @@ export default function About() {
         {" "}
         <Card.Title>
           {" "}
-          <BsChatQuote className="me-1 mb-0" /> About{" "}
+          <h4>
+            {" "}
+            <BsChatQuote /> About{" "}
+          </h4>
         </Card.Title>
         <p className="small text-muted mb-0 mt-0">
           {" "}

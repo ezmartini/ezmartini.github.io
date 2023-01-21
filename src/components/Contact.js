@@ -7,7 +7,10 @@ export default function Contact() {
     <Card className={cardClasses.small + " contactCard"}>
       <Card.Body>
         <Card.Text>[image here]</Card.Text>
-        <Card.Title> Eduarda Martini </Card.Title>
+        <Card.Title>
+          {" "}
+          <h3> Eduarda Martini </h3>{" "}
+        </Card.Title>
         <Card.Text className="small text-muted">
           {" "}
           eduardazmartini@gmail.com{" "}

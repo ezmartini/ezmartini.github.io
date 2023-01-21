@@ -9,8 +9,10 @@ export default function Resume() {
       <Card.Header className="border-bottom-0 p-3 custom-header">
         {" "}
         <Card.Title>
-          {" "}
-          <BsPaperclip /> Resumé{" "}
+          <h4>
+            {" "}
+            <BsPaperclip /> Resumé{" "}
+          </h4>
         </Card.Title>
         <p className="small text-muted mb-0 mt-0">
           {" "}
