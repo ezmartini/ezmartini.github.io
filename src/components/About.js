@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { Card } from "react-bootstrap";
 import { BsChatQuote } from "react-icons/bs";
+import Popup from "./popups/Popup";
 import { cardClasses } from "./util";
 
 export default function About() {
