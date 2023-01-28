@@ -4,7 +4,10 @@ import { cardClasses } from "./util";
 
 export default function Contact() {
   return (
-    <Card className={cardClasses.small + " contactCard"}>
+    <Card
+      className={cardClasses.small + " contactCard"}
+      onClick={(e) => console.log(e)}
+    >
       <Card.Body>
         <Card.Text>[image here]</Card.Text>
         <Card.Title>

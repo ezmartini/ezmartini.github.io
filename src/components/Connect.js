@@ -1,7 +1,6 @@
 import React from "react";
 import { Card, Row, Container } from "react-bootstrap";
 import { cardClasses } from "./util";
-import { BsBroadcast } from "react-icons/bs";
 import Icon from "../icons/Icon";
 
 // change this name
