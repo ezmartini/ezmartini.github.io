@@ -99,6 +99,11 @@
   color: white;
 }
 
+.page-section-nav {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 15px;
+}
 
 .App-link {
   color: #61dafb;

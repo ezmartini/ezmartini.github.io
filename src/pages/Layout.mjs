@@ -7,8 +7,6 @@ import Projects from "../components/Projects.js";
 import SiteNavbar from "../components/SiteNavbar.js";
 import Connect from "../components/Connect.js";
 import Misc from "../components/Misc.js";
-import { Modal, Button } from "react-bootstrap";
-
 export default function Layout() {
   return (
     <div className="background">
