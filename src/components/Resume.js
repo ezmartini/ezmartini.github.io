@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Card } from "react-bootstrap";
 import { cardClasses } from "./util";
 import { BsPaperclip } from "react-icons/bs";
+import resumePDF from "../EduardaMartini_Resume.pdf";
 
 export default function Resume() {
   const [isNavigating, setIsNavigating] = useState(false);
@@ -27,7 +28,20 @@ export default function Resume() {
             experiences and projects.{" "}
           </p>
         </Card.Header>
-        <Card.Body> </Card.Body>
+        <Card.Body>
+          <div className="bg-light rounded border p-2 download">
+            <a href={resumePDF} download="EduardaMartini_Resume.pdf">
+              {" "}
+              Download Here{" "}
+            </a>
+          </div>
+
+          <p className="small text-muted mt-3 mb-0">
+            {" "}
+            Clicking "Download" will save a copy of EduardaMartini_Resume.pdf
+            onto your machine.{" "}
+          </p>
+        </Card.Body>
       </Card>
     </>
   );

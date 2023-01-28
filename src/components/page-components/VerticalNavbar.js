@@ -15,7 +15,7 @@ export default function VerticalNavbar(props) {
             key={idx}
           >
             <BsFillArrowRightCircleFill
-              style={{ color: colors[idx], fontSize: "10px" }}
+              style={{ color: colors[idx], fontSize: "20px" }}
               className="mb-1"
             />{" "}
             {sec}
