@@ -23,9 +23,8 @@ export default function Resume() {
             </h4>
           </Card.Title>
           <p className="small text-muted mb-0 mt-0">
-            {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+            Download my resumé, or view other related professional and academic
+            experiences and projects.{" "}
           </p>
         </Card.Header>
         <Card.Body> </Card.Body>

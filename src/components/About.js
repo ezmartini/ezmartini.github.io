@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Card } from "react-bootstrap";
+import { Card, Container } from "react-bootstrap";
 import { BsChatQuote } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
 import { cardClasses } from "./util";
@@ -26,11 +26,10 @@ export default function About() {
           </Card.Title>
           <p className="small text-muted mb-0 mt-0">
             {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
+            A short introduction to me, my interests, and some photos.{" "}
           </p>
         </Card.Header>
-        <Card.Body> </Card.Body>
+        <Card.Body></Card.Body>
       </Card>
     </>
   );
