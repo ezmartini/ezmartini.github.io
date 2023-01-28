@@ -3,7 +3,6 @@ import { cardClasses } from "./util";
 import { Card } from "react-bootstrap";
 import { BsCodeSlash } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
-import PhotoGrid from "./PhotoGrid";
 
 export default function Projects() {
   const [isNavigating, setIsNavigating] = useState(false);
@@ -28,9 +27,7 @@ export default function Projects() {
             Links and descriptions of deployed and non-deployed projects.{" "}
           </p>
         </Card.Header>
-        <Card.Body>
-          <PhotoGrid />
-        </Card.Body>
+        <Card.Body></Card.Body>
       </Card>
     </>
   );

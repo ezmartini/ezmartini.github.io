@@ -3,6 +3,7 @@ import { Card, Container } from "react-bootstrap";
 import { BsChatQuote } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
 import { cardClasses } from "./util";
+import PhotoGrid from "./PhotoGrid";
 
 export default function About() {
   const [isNavigating, setIsNavigating] = useState(false);
@@ -29,7 +30,9 @@ export default function About() {
             A short introduction to me, my interests, and some photos.{" "}
           </p>
         </Card.Header>
-        <Card.Body></Card.Body>
+        <Card.Body className="p-0">
+          <PhotoGrid />
+        </Card.Body>
       </Card>
     </>
   );
