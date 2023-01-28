@@ -106,6 +106,10 @@
   transition: 0.3s;
 }
 
+.aboutCard {
+  overflow: hidden;
+}
+
 .App-link {
   color: #61dafb;
 }

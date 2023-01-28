@@ -13,7 +13,9 @@ export default function About() {
     <>
       {isNavigating && nav("/about")}
       <Card
-        className={cardClasses.large + cardClasses.right + " px-0 + py-0"}
+        className={
+          cardClasses.large + cardClasses.right + " px-0 + py-0 aboutCard"
+        }
         onClick={(e) => setIsNavigating(true)}
       >
         <Card.Header className="p-0  border-bottom-0 p-3 custom-header">
