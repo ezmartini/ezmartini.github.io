@@ -10,8 +10,7 @@ export default function VerticalNavbar(props) {
       return (
         <>
           <Link
-            smooth
-            className="text-black text-decoration-none"
+            className="text-black text-decoration-none vert-nav-link"
             to={`#${sec.toLowerCase()}`}
             key={idx}
           >
@@ -29,7 +28,9 @@ export default function VerticalNavbar(props) {
   }
   return (
     <Navbar
-      className={"col-lg-2 p-4 align-items-start border-end"}
+      className={
+        "col-lg-2 p-4 align-items-start border-end sticky-top vertical-navigation"
+      }
       style={{
         height: "100vh",
         position: "sticky",
@@ -42,7 +43,7 @@ export default function VerticalNavbar(props) {
     >
       <Navbar.Toggle aria-controls="responsive-navbar-nav">List</Navbar.Toggle>
       <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="flex-column  border rounded vertical-nav">
+        <Nav className="flex-column  border rounded vertical-nav mt-2">
           {generateNavLinks()}
         </Nav>
       </Navbar.Collapse>

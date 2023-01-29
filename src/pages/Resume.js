@@ -38,6 +38,27 @@ export default function Resume() {
 
           <section id="education" className="p-1">
             <h2 className="second-header mt-4"> Education </h2>
+            <p className="mb-0">
+              {" "}
+              <b> New York University, College of Arts and Sciences, </b> New
+              York, NY (current){" "}
+            </p>
+            <p className="mb-0"> Bachelor of Arts, Computer Science </p>
+            <p> Senior, Graduating May 2023 </p>
+            <p className="mb-0">
+              <i> Relevant Coursework: </i>
+            </p>
+
+            <ul class="list-group">
+              <li class="list-group-item"> Data Structures & Alogrithms </li>
+              <li class="list-group-item"> Data Science </li>
+              <li class="list-group-item"> Object Oriented Programming </li>
+              <li class="list-group-item"> Applied Internet Technology </li>
+              <li class="list-group-item"> Software Engineering </li>
+              <li class="list-group-item">
+                Collaborating Remotely: Build Software from Anywhere{" "}
+              </li>
+            </ul>
           </section>
 
           <section id="experience" className="p-1">
@@ -46,6 +67,54 @@ export default function Resume() {
 
           <section id="skills" className="p-1">
             <h2 className="fourth-header mt-4"> Skills </h2>
+
+            <div className="container row mx-auto  border rounded p-2 ">
+              <div className="col-lg-4 col-12 p-2 ">
+                {" "}
+                <h4> Programming Languages </h4>{" "}
+                <ul class="list-group list-unstyled">
+                  <li> JavaScript (ES6) </li>
+                  <li> Java </li>
+                  <li> C </li>
+                  <li> C++ </li>
+                  <li> Python </li>
+                </ul>
+              </div>
+              <div className="col-lg-4 col-12 p-2">
+                {" "}
+                <h4>Web Development </h4>{" "}
+                <ul class="list-group list-unstyled">
+                  <li> Node.js </li>
+                  <li> MongoDB </li>
+                  <li> Express.js </li>
+                  <li> React </li>
+                  <li> Backend Web Development </li>
+                  <li> Frontend Web Development </li>
+                  <li> Agile Development </li>
+                  <li> AJAX </li>
+                  <li> Rest APIs </li>
+                </ul>
+              </div>
+
+              <div className="col-lg-4 col-12 p-2">
+                {" "}
+                <h4> Tools & Technologies </h4>{" "}
+                <ul class="list-group list-unstyled">
+                  <li> Version Control (Git & GitHub) </li>
+                  <li> Continuous Integration (CI) </li>
+                  <li> Continuous Deployment (CD) </li>
+                  <li> Jira </li>
+                  <li> Slack </li>
+                  <li> Confluence</li>
+                  <li> Adobe Photoshop </li>
+                  <li> Adobe Illustrator </li>
+                  <li> Adobe InDesign </li>
+                  <li> Mocha </li>
+                  <li> ESLint </li>
+                  <li> Web Hosting </li>
+                </ul>
+              </div>
+            </div>
           </section>
 
           <section id="projects" className="p-1">
