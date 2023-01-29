@@ -6,7 +6,11 @@ export default function SiteNavbar(props) {
   return (
     <Navbar
       sticky="top"
-      className={!props.name ? "p-0 glossy" : "p-0 bg-light border-bottom"}
+      className={
+        !props.name
+          ? "p-0 glossy"
+          : "p-0 bg-light border-bottom position-fixed w-100"
+      }
       expand="lg"
     >
       <Navbar.Brand

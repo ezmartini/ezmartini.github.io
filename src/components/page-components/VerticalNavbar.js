@@ -29,12 +29,13 @@ export default function VerticalNavbar(props) {
   return (
     <Navbar
       className={
-        "col-lg-2 p-4 align-items-start border-end sticky-top vertical-navigation"
+        "col-lg-2 p-4 align-items-start border-end sticky-top vertical-navigation mt-4"
       }
       style={{
         height: "100vh",
-        position: "sticky",
-        top: "20px",
+        position: "fixed",
+        top: "0px",
+        zIndex: "2",
       }}
       collapseOnSelect
       expand="lg"
