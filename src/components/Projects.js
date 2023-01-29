@@ -24,7 +24,7 @@ export default function Projects() {
           </Card.Title>
           <p className="small text-muted mb-0 mt-0">
             {" "}
-            Links and descriptions of deployed and non-deployed projects.{" "}
+            Links and descriptions of coding and creative projects.{" "}
           </p>
         </Card.Header>
         <Card.Body></Card.Body>

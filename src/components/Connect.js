@@ -14,7 +14,6 @@ export default function Connect() {
               <Icon name="github" />
               <Icon name="linkedin" />
               <Icon name="email" />
-              <Icon name="spotify" />
             </Row>
           </Container>
         </Card.Body>

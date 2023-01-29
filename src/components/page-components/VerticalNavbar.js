@@ -10,7 +10,7 @@ export default function VerticalNavbar(props) {
       return (
         <>
           <Link
-            className="text-black text-decoration-none  page-section-nav border rounded"
+            className="text-black text-decoration-none"
             to={`#${sec.toLowerCase()}`}
             key={idx}
           >
@@ -28,8 +28,12 @@ export default function VerticalNavbar(props) {
   }
   return (
     <Navbar
-      className={"col-lg-2  p-4 align-items-start border-end"}
-      style={{ height: "100vh", overflow: "auto hidden", position: "fixed" }}
+      className={"col-lg-2 p-4 align-items-start border-end"}
+      style={{
+        height: "100vh",
+        position: "sticky",
+        top: "20px",
+      }}
       collapseOnSelect
       expand="lg"
       bg="light"
@@ -37,7 +41,9 @@ export default function VerticalNavbar(props) {
     >
       <Navbar.Toggle aria-controls="responsive-navbar-nav">List</Navbar.Toggle>
       <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="flex-column">{generateNavLinks()}</Nav>
+        <Nav className="flex-column  border rounded vertical-nav">
+          {generateNavLinks()}
+        </Nav>
       </Navbar.Collapse>
     </Navbar>
   );

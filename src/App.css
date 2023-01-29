@@ -114,6 +114,20 @@
   color: #61dafb;
 }
 
+.vertical-nav > * {
+  padding: 15px;
+  width: 100%;
+  border-top: 0.6px solid #9fa6b23a;
+}
+
+.vertical-nav > *:first-child {
+  border-top: none;
+}
+
+.vertical-nav {
+  width: 100%;
+  background-color: white;
+}
 
 @keyframes App-logo-spin {
   from {

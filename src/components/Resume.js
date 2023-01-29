@@ -32,7 +32,7 @@ export default function Resume() {
           <div className="bg-light rounded border p-2 download">
             <a href={resumePDF} download="EduardaMartini_Resume.pdf">
               {" "}
-              Download Here{" "}
+              Download Resumé PDF{" "}
             </a>
           </div>
 

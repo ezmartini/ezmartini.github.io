@@ -29,7 +29,7 @@ export default function About() {
           </Card.Title>
           <p className="small text-muted mb-0 mt-0">
             {" "}
-            A short introduction to me, my interests, and some photos.{" "}
+            A short introduction to me and my interests.{" "}
           </p>
         </Card.Header>
         <Card.Body className="p-0">
