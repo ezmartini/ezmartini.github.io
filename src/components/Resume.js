@@ -39,7 +39,7 @@ export default function Resume() {
           <p className="small text-muted mt-3 mb-0">
             {" "}
             Clicking "Download" will save a copy of EduardaMartini_Resume.pdf
-            onto your machine.{" "}
+            locally.{" "}
           </p>
         </Card.Body>
       </Card>

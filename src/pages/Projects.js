@@ -9,7 +9,7 @@ export default function Projects() {
       <Container className="p-0" fluid>
         <SiteNavbar name="Projects" />
         <VerticalNavbar
-          sections={["invvey", "Talkman", "NYU Photobooth", "Misc"]}
+          sections={["invvey", "Talkman", "NYU Photobooth", "Creative"]}
         />
       </Container>
     </>

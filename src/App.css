@@ -144,6 +144,21 @@
  .fourth-header {
   color: #5452CC;
  }
+
+ .fifth-header {
+  color: #FF9500;
+ }
+
+ .download-page {
+  background-color: #41b0dc22;
+  border: 0.3px solid #41b0dc88;
+ }
+
+ .download-page-other {
+  background-color: #41b0dc0c;
+  border: 0.3px solid #41b0dc88;
+
+ }
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

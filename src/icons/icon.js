@@ -33,7 +33,7 @@ export default function Icon(props) {
   };
   return (
     <>
-      <div className="text-center text-white col-lg-3 p-1 col-md-4 col-sm-3 col-3">
+      <div className="text-center text-white col-lg-2 p-1 col-md-4 col-sm-3 col-3">
         <div className="connectDiv">
           <a class="iconLink" href={icons[props.name].site}>
             <div

@@ -16,14 +16,14 @@ import sunset from "../jpgs/sunset.jpeg";
 export default function PhotoGrid() {
   return (
     <>
-      <Container className="p-0 bg-primary photoGrid" fluid>
+      <Container className="p-0 photoGrid" fluid>
         <img
           alt="Plate of Brazilian food in Astoria"
           src={brazilianFood}
           className="col-lg-2 col-3"
         />
         <img alt="Charcuterie board" src={board} className="col-lg-2 col-3" />
-        <img alt="Photo from boston" src={boston} className="col-lg-2 col-3" />
+        <img alt="Boston" src={boston} className="col-lg-2 col-3" />
         <img
           alt="Two dogs hanging out, with one sitting on another"
           src={bubbaMia}

@@ -4,7 +4,7 @@ import { HashLink as Link } from "react-router-hash-link";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 export default function VerticalNavbar(props) {
-  const colors = ["#41AFDC", "#FF3126", "#1EC337", "#5452CC"];
+  const colors = ["#41AFDC", "#FF3126", "#1EC337", "#5452CC", "#FF9500"];
   function generateNavLinks() {
     const links = props.sections.map((sec, idx) => {
       return (
