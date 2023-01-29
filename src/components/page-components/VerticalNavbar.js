@@ -10,6 +10,7 @@ export default function VerticalNavbar(props) {
       return (
         <>
           <Link
+            smooth
             className="text-black text-decoration-none"
             to={`#${sec.toLowerCase()}`}
             key={idx}

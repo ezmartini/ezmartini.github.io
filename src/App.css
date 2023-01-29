@@ -129,6 +129,21 @@
   background-color: white;
 }
 
+.first-header {
+ color: #41AFDC;
+}
+
+.second-header {
+  color: #FF3126;
+ }
+
+ .third-header {
+  color: #1EC337
+ }
+
+ .fourth-header {
+  color: #5452CC;
+ }
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
