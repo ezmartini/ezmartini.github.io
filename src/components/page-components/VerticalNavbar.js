@@ -8,6 +8,7 @@ export default function VerticalNavbar(props) {
   const [hover, setHover] = useState("");
 
   const colors = ["#41AFDC", "#FF3126", "#1EC337", "#5452CC", "#FF9500"];
+
   function generateNavLinks() {
     const links = props.sections.map((sec, idx) => {
       const isActive = active === sec;
@@ -43,13 +44,13 @@ export default function VerticalNavbar(props) {
 
     return links;
   }
+
   return (
     <Navbar
       className={
-        "col-lg-2 p-4 align-items-start border-end sticky-top vertical-navigation mt-4"
+        "col-lg-2 p-4 pb-2 align-items-start border-end vertical-navigation mt-4"
       }
       style={{
-        height: "100vh",
         position: "fixed",
         top: "0px",
         zIndex: "2",

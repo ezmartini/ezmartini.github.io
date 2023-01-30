@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -33,11 +34,11 @@
 }
 
 .custom-header {
- background-color: rgba(215, 194, 243, 0.222) !important;
+ background-color: rgb(194, 210, 243) !important;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #e0e4ec;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -124,6 +125,7 @@
   border-top: none;
 }
 
+
 .vertical-nav {
   width: 100%;
   background-color: rgb(255, 255, 255);
@@ -160,8 +162,6 @@
   border: 0.3px solid #41b0dc88;
 
  }
-
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -171,3 +171,15 @@
   }
 }
 
+
+.vertical-navigation {
+    height: 100vh !important;
+}
+
+
+@media (min-width: 200px) and (max-width: 991.98px) { 
+  .vertical-navigation {
+    height: auto !important;
+
+}
+}
