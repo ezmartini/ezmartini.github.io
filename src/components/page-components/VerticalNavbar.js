@@ -5,17 +5,28 @@ import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 export default function VerticalNavbar(props) {
   const [active, setActive] = useState("");
+  const [hover, setHover] = useState("");
 
   const colors = ["#41AFDC", "#FF3126", "#1EC337", "#5452CC", "#FF9500"];
   function generateNavLinks() {
     const links = props.sections.map((sec, idx) => {
       const isActive = active === sec;
+      const isHover = hover === sec;
+
       return (
         <>
           <Link
-            className={"text-black text-decoration-none"}
-            style={{ backgroundColor: isActive ? colors[idx] + "3a" : "white" }}
-            onMouseOver={(e) => setActive(e.target.id)}
+            className={"text-black text-decoration-none "}
+            style={{
+              backgroundColor: isActive
+                ? colors[idx] + "3a"
+                : isHover
+                ? colors[idx] + "10"
+                : " white",
+              transition: "0.2s",
+            }}
+            onMouseOver={(e) => setHover(e.target.id)}
+            onMouseLeave={(e) => setHover("none")}
             id={sec}
             to={`#${sec.toLowerCase()}`}
             key={idx}
