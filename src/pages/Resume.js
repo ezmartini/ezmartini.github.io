@@ -63,6 +63,55 @@ export default function Resume() {
 
           <section id="experience" className="p-1">
             <h2 className="third-header mt-4"> Experience </h2>
+
+            <p className="mb-0">
+              {" "}
+              <b> Front-End Developer Intern </b> at <i> L'AMARUE </i>
+            </p>
+
+            <p className="mb-0"> Remote, May 2022 – September 2022 </p>
+
+            <ul class="list-group ms-4">
+              <li>
+                {" "}
+                Planned and developed different components of the website{" "}
+              </li>
+              <li>
+                {" "}
+                Provided direct support to and collaborated with Co-Founder and
+                CEO on multiple technical projects{" "}
+              </li>
+              <li>
+                {" "}
+                Designed and established user-friendly and informative websites
+                aimed at increasing website engagement and enhancing brand
+                awareness{" "}
+              </li>
+            </ul>
+
+            <p className="mb-0 mt-4">
+              {" "}
+              <b> Social Media Curator and Intern </b> at <i> L'AMARUE </i>
+            </p>
+
+            <p className="mb-0">
+              {" "}
+              New York, NY, November 2019 – February 2022{" "}
+            </p>
+
+            <ul class="list-group ms-4">
+              <li>
+                {" "}
+                Created and edited visual content for publication on official
+                online media using tools such as Photoshop
+              </li>
+              <li>
+                {" "}
+                Provided user experience feedback to CEO for website development
+                and customer service; communicated with CEO to determine the
+                best course of action and future development
+              </li>
+            </ul>
           </section>
 
           <section id="skills" className="p-1">
@@ -119,6 +168,99 @@ export default function Resume() {
 
           <section id="projects" className="p-1">
             <h2 className="fifth-header mt-4"> Projects </h2>
+
+            <p className="mb-0">
+              {" "}
+              <b> HighVintage </b>{" "}
+              <i> (MongoDB, Express.js, React, Node.js, Tailwind) </i>
+            </p>
+
+            <i> (Project not deployed - yet!)</i>
+            <p className="mb-0"> February 2022 – Present </p>
+            <ul class="list-group ms-4 mb-4">
+              <li>
+                {" "}
+                Overseeing sprints, standups, and other relevant aspects of
+                Scrum as current project Scrum master
+              </li>
+              <li>
+                {" "}
+                Using a mobile-first approach to devise wireframes and user
+                experience
+              </li>
+
+              <li>
+                {" "}
+                Overseeing and devising unit tests and assisting with
+                containerization
+              </li>
+            </ul>
+            <p className="mb-0">
+              {" "}
+              <b> Talkman </b>{" "}
+              <i>
+                {" "}
+                (MongoDB, Handlebars.js, Express.js, Spotify API, Passport.js,
+                Node.js){" "}
+              </i>
+            </p>
+
+            <a href="https://talkman-app.herokuapp.com/">
+              {" "}
+              View deployed site{" "}
+            </a>
+            <p className="mb-0"> November 2022 – December 2022 </p>
+            <ul class="list-group ms-4 mb-4">
+              <li>
+                {" "}
+                Designed and developed a full-stack music diary web application
+                using HTML, CSS, and Express.js
+              </li>
+              <li>
+                {" "}
+                Incorporated Spotify API to allow users to create entries and
+                preview songs from Spotify
+              </li>
+              <li className="ms-2">
+                {" "}
+                <i> What I would do differently: </i> Take a mobile first
+                approach, use a Front-End framework that allows for more
+                stylistic freedom (plain CSS or Tailwind), use React for
+                multiple repeating components
+              </li>
+            </ul>
+
+            <p className="mb-0">
+              {" "}
+              <b> NYU Photobooth </b>{" "}
+              <i> (Flask, Handlebars.js, Bootstrap, MongoDB)</i>
+            </p>
+
+            <a href="https://nyu-photobooth.herokuapp.com/">
+              {" "}
+              View deployed site{" "}
+            </a>
+            <p className="mb-0"> December 2022 </p>
+            <ul class="list-group ms-4">
+              <li>
+                {" "}
+                Created containerized (Docker) full-stack web application for
+                NYU students to share experiences unique to on campus life using
+                user-generated photos and randomly generated captions
+              </li>
+              <li>
+                {" "}
+                Oversaw front-end development and lifecycle development
+                including developing wireframes, performing website design,
+                delegating user stories, leading daily standups, supervising
+                deployment and unit testing
+              </li>
+              <li className="ms-2">
+                {" "}
+                <i> What I would do differently: </i> Take a mobile first
+                approach (once again!), implement more user sign-in security
+              </li>
+            </ul>
           </section>
         </section>
       </Container>

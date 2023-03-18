@@ -4,7 +4,11 @@ import { cardClasses } from "./util";
 
 export default function Misc() {
   return (
-    <Card className={cardClasses.large + cardClasses.right + " px-0 + py-0"}>
+    <Card
+      className={
+        cardClasses.large + cardClasses.right + " px-0 + py-0 invisible"
+      }
+    >
       <Card.Header className="border-bottom-0  p-3 custom-header">
         {" "}
         <Card.Title>

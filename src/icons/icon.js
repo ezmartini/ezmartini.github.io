@@ -33,19 +33,21 @@ export default function Icon(props) {
   };
   return (
     <>
-      <div className="text-center text-white col-lg-2 p-1 col-md-4 col-sm-3 col-3">
+      <div className="text-white col-3">
         <div className="connectDiv">
           <a class="iconLink" href={icons[props.name].site}>
             <div
-              className="rounded"
+              className="rounded text-center"
               style={{
                 backgroundColor: icons[props.name].color,
-                fontSize: "34px",
+                fontSize: "30px",
+                height: "50px",
+                width: "49px",
               }}
             >
               {icons[props.name].bsIcon}
             </div>
-            <p className="small text-black mt-1" style={{ fontSize: "10px" }}>
+            <p className="text-black text-center" style={{ fontSize: "10px" }}>
               {" "}
               {icons[props.name].name}{" "}
             </p>
