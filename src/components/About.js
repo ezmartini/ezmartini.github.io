@@ -21,7 +21,7 @@ export default function About() {
         <Card.Header className="p-0  border-bottom-0 p-3 custom-header">
           {" "}
           <Card.Title>
-            <img height="25px" src={hand} />
+            <img height="25px" src={hand} alt="An emoji of a waving hand" />
             <h4 style={{ display: "inline" }}> About </h4>
           </Card.Title>
           <p className="small text-muted mb-0 mt-0">

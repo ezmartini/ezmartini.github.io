@@ -2,7 +2,6 @@ import React from "react";
 import { Card, Row, Container } from "react-bootstrap";
 import { cardClasses } from "./util";
 import Icon from "../icons/Icon";
-import { BsColumns } from "react-icons/bs";
 
 // change this name
 export default function Connect() {
