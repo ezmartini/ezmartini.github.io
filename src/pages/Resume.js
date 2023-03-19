@@ -175,7 +175,10 @@ export default function Resume() {
               <i> (MongoDB, Express.js, React, Node.js, Tailwind) </i>
             </p>
 
-            <i> (Project not deployed - yet!)</i>
+            <a href="https://github.com/agiledev-students-spring-2023/final-project-highvintage">
+              {" "}
+              GitHub Repository{" "}
+            </a>
             <p className="mb-0"> February 2022 – Present </p>
             <ul class="list-group ms-4 mb-4">
               <li>

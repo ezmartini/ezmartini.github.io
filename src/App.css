@@ -34,7 +34,7 @@
 }
 
 .custom-header {
- background-color: rgb(194, 210, 243) !important;
+ background-color: rgba(117, 126, 255, 0.251) !important;
 }
 
 .App-header {
@@ -49,7 +49,7 @@
 }
 
 .background {
-  background-image: url("../public/pawel-czerwinski-7FqOISWr5V0-unsplash.jpg");
+  background-image: url("https://512pixels.net/wp-content/uploads/2020/06/11-0-Color-Day-thumbnails.jpg");
  
   height: 100vh;
   width: 100%;
