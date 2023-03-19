@@ -10,8 +10,8 @@ export default function About(props) {
       <Container className="p-0 row" fluid>
         <VerticalNavbar sections={["Introduction", "Interests"]} />
 
-        <section className="col-9 p-4 offset-2 mt-5">
-          <h1> About </h1>
+        <section className="col-9 p-4 offset-lg-2 offset-1 mt-5">
+          <h1 className="mt-3"> About </h1>
 
           <section id="introduction" className="p-1">
             <h2 className="first-header mt-4"> Introduction </h2>

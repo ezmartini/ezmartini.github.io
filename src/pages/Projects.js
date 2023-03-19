@@ -14,7 +14,7 @@ export default function Projects() {
       <Container className="p-0 row" fluid>
         <VerticalNavbar sections={["High Vintage", "Invvey", "Creative"]} />
 
-        <section className="col-9 p-4 offset-lg-2 offset-1 mt-lg-2 mt-5">
+        <section className="col-9 p-4 offset-lg-2 offset-1 mt-5">
           <h1 className="mt-4"> Projects </h1>
 
           <section id="high vintage" className="p-1">

@@ -1,6 +1,10 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
-import { BsFillEnvelopeFill, BsPersonBoundingBox } from "react-icons/bs";
+import {
+  BsFillEnvelopeFill,
+  BsPersonBoundingBox,
+  BsLinkedin,
+} from "react-icons/bs";
 
 export default function SiteNavbar(props) {
   return (
@@ -24,7 +28,14 @@ export default function SiteNavbar(props) {
       <Nav className="ms-auto me-2">
         <Nav.Link>
           {" "}
-          <BsFillEnvelopeFill className="text-white mb-1" />{" "}
+          <a href="mailto: eduardazmartini@gmail.com">
+            {" "}
+            <BsFillEnvelopeFill className="text-white mb-1 me-2" />{" "}
+          </a>
+          <a href="linkedin.com/in/eduardazm">
+            {" "}
+            <BsLinkedin className="text-white mb-1" />{" "}
+          </a>
         </Nav.Link>
       </Nav>
     </Navbar>
