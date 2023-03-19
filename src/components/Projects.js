@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { cardClasses } from "./util";
-import { Card } from "react-bootstrap";
+import { Card, Row } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import { Container } from "react-bootstrap";
 import scissors from "../jpgs/scissors.png";
 
 export default function Projects() {
@@ -25,7 +26,36 @@ export default function Projects() {
             Links and descriptions of coding and creative projects.{" "}
           </p>
         </Card.Header>
-        <Card.Body></Card.Body>
+        <Card.Body>
+          <Container>
+            <Row className="justify-content-center">
+              <a
+                className="col-sm-12 col-md-6 me-md-3 text-center text-decoration-none p-2 rounded border mb-2"
+                style={{ backgroundColor: "#41AFDC10" }}
+                href="/projects#high%20vintage"
+              >
+                {" "}
+                High Vintage{" "}
+              </a>
+              <a
+                className="col-sm-12 col-md-5 text-center text-decoration-none p-2 rounded border mb-2"
+                style={{ backgroundColor: "#FF312610" }}
+                href="/projects#invvey"
+              >
+                {" "}
+                Invvey{" "}
+              </a>
+              <a
+                className="col-sm-12 col-md-10 text-center text-decoration-none p-2 rounded border"
+                style={{ backgroundColor: "#5452CC10" }}
+                href="/projects#kaytraa-cards"
+              >
+                {" "}
+                KAYTRAA-CARDS{" "}
+              </a>{" "}
+            </Row>
+          </Container>
+        </Card.Body>
       </Card>
     </>
   );

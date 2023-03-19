@@ -13,13 +13,15 @@ export default function Projects() {
     <>
       <SiteNavbar name="Projects" />
       <Container className="p-0 row" fluid>
-        <VerticalNavbar sections={["High Vintage", "Invvey", "Creative"]} />
+        <VerticalNavbar
+          sections={["High Vintage", "Invvey", "KAYTRAA-CARDS"]}
+        />
 
         <section className="col-lg-10 col-11 p-4 offset-lg-2 offset-1 mt-5 mt-lg-3">
           <h1 className="mt-4"> Projects </h1>
 
           <section id="high vintage" className="p-1">
-            <h2 className="first-header mt-4"> High Vintage </h2>
+            <h2 className="first-header mt-4"> HighVintage </h2>
 
             <p className="mb-0">
               {" "}
@@ -113,7 +115,7 @@ export default function Projects() {
             </ul>
           </section>
 
-          <section id="creative" className="p-1">
+          <section id="kaytraa-cards" className="p-1">
             <h2 className="third-header mt-4"> KAYTRAA-CARDS </h2>
 
             <p className="mb-0">
