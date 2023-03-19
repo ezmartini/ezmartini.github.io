@@ -6,6 +6,7 @@ import birds from "../kaytracards/kaytraa-cards2.jpg";
 import bugs from "../kaytracards/kaytraa-cards7.jpg";
 import volcano from "../kaytracards/kaytraa-cards10.jpg";
 import mountain from "../kaytracards/kaytraa-cards13.jpg";
+import invvey from "../jpgs/invvey.png";
 
 export default function Projects() {
   return (
@@ -84,6 +85,13 @@ export default function Projects() {
               first UI design, and Rest API principles.
             </p>
 
+            <img
+              alt="a screenshot of invvey's dashboard, showing products and their stocks"
+              className="border"
+              src={invvey}
+              width="100%"
+            />
+
             <ul class="list-group ms-4 mb-4">
               <li>
                 {" "}
@@ -131,7 +139,7 @@ export default function Projects() {
                   alt="Playing card with a bird design in the center"
                 />
                 <img
-                  className="col-lg-3 col-6"
+                  className="col-lg-3 col-6 "
                   src={bugs}
                   alt="Playing card with a ladybug design in the center"
                 />

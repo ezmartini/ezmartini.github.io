@@ -47,9 +47,7 @@ export default function VerticalNavbar(props) {
 
   return (
     <Navbar
-      className={
-        "col-lg-2 p-4 pb-2 align-items-start border-end vertical-navigation mt-4"
-      }
+      className={"col-lg-2 p-4 pb-2 align-items-start vertical-navigation mt-4"}
       style={{
         position: "fixed",
         top: "0px",
@@ -57,15 +55,17 @@ export default function VerticalNavbar(props) {
       }}
       collapseOnSelect
       expand="lg"
-      bg="light"
       variant="light"
     >
-      <Navbar.Toggle aria-controls="responsive-navbar-nav">List</Navbar.Toggle>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" className="bg-light">
+        {" "}
+        Contents{" "}
+      </Navbar.Toggle>
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav
           onClick={(e) => setActive(e.target.id)}
           style={{ overflow: "hidden" }}
-          className="flex-column  border rounded vertical-nav mt-2"
+          className="flex-column border rounded vertical-nav mt-2"
         >
           {generateNavLinks()}
         </Nav>
