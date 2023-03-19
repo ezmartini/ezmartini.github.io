@@ -21,7 +21,6 @@ export default function About() {
         <Card.Header className="p-0  border-bottom-0 p-3 custom-header">
           {" "}
           <Card.Title>
-            {" "}
             <h4>
               {" "}
               <BsChatQuote /> About{" "}

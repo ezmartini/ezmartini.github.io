@@ -15,7 +15,7 @@ export default function Resume() {
           sections={["PDF", "Education", "Experience", "Skills", "Projects"]}
         />
 
-        <section className="col-9 p-4 offset-lg-2 offset-1 mt-5">
+        <section className="col-lg-10 col-11 p-4 offset-lg-2 offset-1 mt-5 mt-lg-3">
           <h1 className="mt-4"> Resumé </h1>
 
           <section id="pdf" className="p-1">
