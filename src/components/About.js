@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { Card, Container } from "react-bootstrap";
-import { BsChatQuote } from "react-icons/bs";
+import { Card } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { cardClasses } from "./util";
 import PhotoGrid from "./PhotoGrid";
+import hand from "../jpgs/hand.png";
 
 export default function About() {
   const [isNavigating, setIsNavigating] = useState(false);
@@ -21,10 +21,8 @@ export default function About() {
         <Card.Header className="p-0  border-bottom-0 p-3 custom-header">
           {" "}
           <Card.Title>
-            <h4>
-              {" "}
-              <BsChatQuote /> About{" "}
-            </h4>
+            <img height="25px" src={hand} />
+            <h4 style={{ display: "inline" }}> About </h4>
           </Card.Title>
           <p className="small text-muted mb-0 mt-0">
             {" "}

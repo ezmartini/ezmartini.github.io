@@ -12,7 +12,11 @@ export default function Contact() {
       <Card.Body>
         <Card.Title>
           {" "}
-          <img src={emoji} height="50px" />
+          <img
+            alt="An emoji of a female with black hair behind a computer"
+            src={emoji}
+            height="50px"
+          />
           <h2 className="mt-1"> Eduarda Martini </h2>{" "}
         </Card.Title>
         <Card.Text className="small"> eduardazmartini@gmail.com </Card.Text>

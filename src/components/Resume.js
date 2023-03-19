@@ -4,6 +4,7 @@ import { Card } from "react-bootstrap";
 import { cardClasses } from "./util";
 import { BsPaperclip } from "react-icons/bs";
 import resumePDF from "../EduardaMartini_Resume.pdf";
+import paperclip from "../jpgs/paperclip.png";
 
 export default function Resume() {
   const [isNavigating, setIsNavigating] = useState(false);
@@ -18,10 +19,8 @@ export default function Resume() {
         <Card.Header className="border-bottom-0 p-3 custom-header">
           {" "}
           <Card.Title>
-            <h4>
-              {" "}
-              <BsPaperclip /> Resumé{" "}
-            </h4>
+            <img height="25px" src={paperclip} />
+            <h4 style={{ display: "inline" }}> Resumé </h4>
           </Card.Title>
           <p className="small text-muted mb-0 mt-0">
             Download my resumé, or view other related professional and academic

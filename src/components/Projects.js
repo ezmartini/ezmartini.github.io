@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { cardClasses } from "./util";
 import { Card } from "react-bootstrap";
-import { BsCodeSlash } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
+import scissors from "../jpgs/scissors.png";
 
 export default function Projects() {
   const [isNavigating, setIsNavigating] = useState(false);
@@ -17,10 +17,8 @@ export default function Projects() {
         <Card.Header className="p-0 border-bottom-0 p-3 custom-header">
           {" "}
           <Card.Title>
-            <h4>
-              {" "}
-              <BsCodeSlash /> Projects{" "}
-            </h4>
+            <img height="25px" src={scissors} />
+            <h4 style={{ display: "inline" }}> Projects </h4>
           </Card.Title>
           <p className="small text-muted mb-0 mt-0">
             {" "}
