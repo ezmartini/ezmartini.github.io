@@ -57,10 +57,10 @@ export default function VerticalNavbar(props) {
       expand="lg"
       variant="light"
     >
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" className="bg-light">
-        {" "}
-        Contents{" "}
-      </Navbar.Toggle>
+      <Navbar.Toggle
+        aria-controls="responsive-navbar-nav"
+        className="bg-light navbar"
+      ></Navbar.Toggle>
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav
           onClick={(e) => setActive(e.target.id)}
