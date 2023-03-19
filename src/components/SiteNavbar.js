@@ -28,13 +28,27 @@ export default function SiteNavbar(props) {
       <Nav className="ms-auto me-2">
         <Nav.Link>
           {" "}
-          <a href="mailto: eduardazmartini@gmail.com">
+          <a
+            className="text-decoration-none"
+            href="mailto: eduardazmartini@gmail.com"
+          >
             {" "}
-            <BsFillEnvelopeFill className="text-white mb-1 me-2" />{" "}
+            <BsFillEnvelopeFill
+              className={
+                !props.name
+                  ? "text-white mb-1 me-2"
+                  : "text-secondary mb-1 me-2"
+              }
+            />{" "}
           </a>
-          <a href="linkedin.com/in/eduardazm">
-            {" "}
-            <BsLinkedin className="text-white mb-1" />{" "}
+          <a className="text-decoration-none" href="linkedin.com/in/eduardazm">
+            <BsLinkedin
+              className={
+                !props.name
+                  ? "text-white mb-1 me-2"
+                  : "text-secondary mb-1 me-2"
+              }
+            />{" "}
           </a>
         </Nav.Link>
       </Nav>
