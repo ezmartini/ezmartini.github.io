@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8766f831.css",
-    "main.js": "/static/js/main.13fcbbbe.js",
+    "main.css": "/static/css/main.adc23f3c.css",
+    "main.js": "/static/js/main.2de2dbd5.js",
     "static/media/jeep.jpeg": "/static/media/jeep.1a099d722324fcf8282b.jpeg",
     "static/media/board.jpeg": "/static/media/board.9c624a83feb6f2d6fa3c.jpeg",
     "static/media/legos.jpeg": "/static/media/legos.7b7fb57ddf2f21c912c0.jpeg",
@@ -17,14 +17,19 @@
     "static/media/kaytraa-cards7.jpg": "/static/media/kaytraa-cards7.c582bb91de0c2acbd4d5.jpg",
     "static/media/kaytraa-cards10.jpg": "/static/media/kaytraa-cards10.ac1f31581f85ce0a7b1c.jpg",
     "static/media/kaytraa-cards13.jpg": "/static/media/kaytraa-cards13.2fd818cc9bb4757c6abe.jpg",
+    "static/media/invvey.png": "/static/media/invvey.b2e528a2244c5da3cf28.png",
     "static/media/mia.jpeg": "/static/media/mia.8ce55ba8f16109e7c9c1.jpeg",
     "static/media/EduardaMartini_Resume.pdf": "/static/media/EduardaMartini_Resume.d3907698fd602a998264.pdf",
+    "static/media/paperclip.png": "/static/media/paperclip.2320502864b71bfdcd26.png",
+    "static/media/scissors.png": "/static/media/scissors.cdf41f6687fbbf5abd42.png",
+    "static/media/woman-technologist-light-skin-tone_1f469-1f3fb-200d-1f4bb.png": "/static/media/woman-technologist-light-skin-tone_1f469-1f3fb-200d-1f4bb.01dcefe46f75a38e1f6e.png",
+    "static/media/hand.png": "/static/media/hand.deceaf90148cf45ae9a9.png",
     "index.html": "/index.html",
-    "main.8766f831.css.map": "/static/css/main.8766f831.css.map",
-    "main.13fcbbbe.js.map": "/static/js/main.13fcbbbe.js.map"
+    "main.adc23f3c.css.map": "/static/css/main.adc23f3c.css.map",
+    "main.2de2dbd5.js.map": "/static/js/main.2de2dbd5.js.map"
   },
   "entrypoints": [
-    "static/css/main.8766f831.css",
-    "static/js/main.13fcbbbe.js"
+    "static/css/main.adc23f3c.css",
+    "static/js/main.2de2dbd5.js"
   ]
 }
