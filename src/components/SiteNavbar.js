@@ -22,7 +22,7 @@ export default function SiteNavbar(props) {
         href={"/"}
       >
         <BsPersonBoundingBox className="small mb-1" /> <b> Eduarda </b>{" "}
-        {!props.name ? "Jr. Web Developer" : props.name}
+        {!props.name ? "" : props.name}
       </Navbar.Brand>
 
       <Nav className="ms-auto me-2">
